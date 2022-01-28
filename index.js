@@ -241,7 +241,6 @@ client.on('interactionCreate', async interaction => {
     if (!interaction.isCommand()) return;
 
     const { commandName } = interaction;
-    console.log(interaction);
 
     if (commandName === 'dc') {
 
