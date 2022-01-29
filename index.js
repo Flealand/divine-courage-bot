@@ -144,6 +144,7 @@ client.on("interactionCreate", async interaction => {
                 .addField("Items", item1 + " | " + item2 + " | " + item3 + " | " + item4, true);
             await interaction.reply({ embeds: [embed] });
 
+
         } catch (error) {
             console.log(error);
         }
