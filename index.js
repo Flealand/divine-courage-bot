@@ -9,6 +9,12 @@ const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
 const boots = ["Boots of Travel", "Phase Boots", "Mana Boots", "Treads", "Tranquil Boots"];
 
+const lanes = [
+    "Safe lane",
+    "Mid lane",
+    "Off lane",
+];
+
 const items = [
     "Soul Ring",
     "Orb of Corrosion",
@@ -125,16 +131,18 @@ client.on("interactionCreate", async interaction => {
         const item2 = items[Math.floor(Math.random() * items.length)];
         const item3 = items[Math.floor(Math.random() * items.length)];
         const item4 = items[Math.floor(Math.random() * items.length)];
+        const lane = lanes[Math.floor(Math.random() * lanes.length)];
 
         results = [boot, hero, item1, item2, item3, item4];
+        console.log(interaction.user.tag + ": Hero pic url: " + hero.url + " Items", item1 + " | " + item2 + " | " + item3 + " | " + item4);
 
-       try {
+        try {
             const embed = new MessageEmbed()
-            .setThumbnail("https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/" + hero.url + ".png")
-            .setTitle(hero.display)
-            .setDescription(boot)
-            .addField("Items", item1 + " | " + item2 +  " | " +item3 +  " | " + item4 , true);
-        await interaction.reply({ embeds: [embed] });
+                .setThumbnail("https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/" + hero.url + ".png")
+                .setTitle(hero.display + " - " + lane)
+                .setDescription(boot)
+                .addField("Items", item1 + " | " + item2 + " | " + item3 + " | " + item4, true);
+            await interaction.reply({ embeds: [embed] });
 
         } catch (error) {
             console.log(error);
