@@ -1,0 +1,490 @@
+{
+    "Abaddon":{
+       "display":"Abaddon",
+       "url":"abaddon"
+    },
+    "Alchemist":{
+       "display":"Alchemist",
+       "url":"alchemist"
+    },
+    "Ancient Apparition":{
+       "display":"Ancient Apparition",
+       "url":"ancient_apparition"
+    },
+    "Anti-Mage":{
+       "display":"Anti-Mage",
+       "url":"antimage"
+    },
+    "Arc Warden":{
+       "display":"Arc Warden",
+       "url":"arc_warden"
+    },
+    "Axe":{
+       "display":"Axe",
+       "url":"axe"
+    },
+    "Bane":{
+       "display":"Bane",
+       "url":"bane"
+    },
+    "Batrider":{
+       "display":"Batrider",
+       "url":"batrider"
+    },
+    "Beastmaster":{
+       "display":"Beastmaster",
+       "url":"beastmaster"
+    },
+    "Bloodseeker":{
+       "display":"Bloodseeker",
+       "url":"bloodseeker"
+    },
+    "Bounty Hunter":{
+       "display":"Bounty Hunter",
+       "url":"bounty_hunter"
+    },
+    "Brewmaster":{
+       "display":"Brewmaster",
+       "url":"brewmaster"
+    },
+    "Bristleback":{
+       "display":"Bristleback",
+       "url":"bristleback"
+    },
+    "Broodmother":{
+       "display":"Broodmother",
+       "url":"broodmother"
+    },
+    "Centaur Warrunner":{
+       "display":"Centaur Warrunner",
+       "url":"centaur"
+    },
+    "Chaos Knight":{
+       "display":"Chaos Knight",
+       "url":"chaos_knight"
+    },
+    "Chen":{
+       "display":"Chen",
+       "url":"chen"
+    },
+    "Clinkz":{
+       "display":"Clinkz",
+       "url":"clinkz"
+    },
+    "Clockwerk":{
+       "display":"Clockwerk",
+       "url":"rattletrap"
+    },
+    "Crystal Maiden":{
+       "display":"Crystal Maiden",
+       "url":"crystal_maiden"
+    },
+    "Dark Seer":{
+       "display":"Dark Seer",
+       "url":"dark_seer"
+    },
+    "Dark Willow":{
+       "display":"Dark Willow",
+       "url":"dark_willow"
+    },
+    "Dawnbreaker":{
+       "display":"Dawnbreaker",
+       "url":"dawnbreaker"
+    },
+    "Dazzle":{
+       "display":"Dazzle",
+       "url":"dazzle"
+    },
+    "Death Prophet":{
+       "display":"Death Prophet",
+       "url":"death_prophet"
+    },
+    "Disruptor":{
+       "display":"Disruptor",
+       "url":"disruptor"
+    },
+    "Doom":{
+       "display":"Doom",
+       "url":"doom_bringer"
+    },
+    "Dragon Knight":{
+       "display":"Dragon Knight",
+       "url":"dragon_knight"
+    },
+    "Drow Ranger":{
+       "display":"Drow Ranger",
+       "url":"drow_ranger"
+    },
+    "Earth Spirit":{
+       "display":"Earth Spirit",
+       "url":"earth_spirit"
+    },
+    "Earthshaker":{
+       "display":"Earthshaker",
+       "url":"earthshaker"
+    },
+    "Elder Titan":{
+       "display":"Elder Titan",
+       "url":"elder_titan"
+    },
+    "Ember Spirit":{
+       "display":"Ember Spirit",
+       "url":"ember_spirit"
+    },
+    "Enchantress":{
+       "display":"Enchantress",
+       "url":"enchantress"
+    },
+    "Enigma":{
+       "display":"Enigma",
+       "url":"enigma"
+    },
+    "Faceless Void":{
+       "display":"Faceless Void",
+       "url":"faceless_void"
+    },
+    "Grimstroke":{
+       "display":"Grimstroke",
+       "url":"grimstroke"
+    },
+    "Gyrocopter":{
+       "display":"Gyrocopter",
+       "url":"gyrocopter"
+    },
+    "Hoodwink":{
+       "display":"Hoodwink",
+       "url":"hoodwink"
+    },
+    "Huskar":{
+       "display":"Huskar",
+       "url":"huskar"
+    },
+    "Invoker":{
+       "display":"Invoker",
+       "url":"invoker"
+    },
+    "Io":{
+       "display":"Io",
+       "url":"wisp"
+    },
+    "Jakiro":{
+       "display":"Jakiro",
+       "url":"jakiro"
+    },
+    "Juggernaut":{
+       "display":"Juggernaut",
+       "url":"juggernaut"
+    },
+    "Keeper of the Light":{
+       "display":"Keeper of the Light",
+       "url":"keeper_of_the_light"
+    },
+    "Kunkka":{
+       "display":"Kunkka",
+       "url":"kunkka"
+    },
+    "Legion Commander":{
+       "display":"Legion Commander",
+       "url":"legion_commander"
+    },
+    "Leshrac":{
+       "display":"Leshrac",
+       "url":"leshrac"
+    },
+    "Lich":{
+       "display":"Lich",
+       "url":"lich"
+    },
+    "Lifestealer":{
+       "display":"Lifestealer",
+       "url":"life_stealer"
+    },
+    "Lina":{
+       "display":"Lina",
+       "url":"lina"
+    },
+    "Lion":{
+       "display":"Lion",
+       "url":"lion"
+    },
+    "Lone Druid":{
+       "display":"Lone Druid",
+       "url":"lone_druid"
+    },
+    "Luna":{
+       "display":"Luna",
+       "url":"luna"
+    },
+    "Lycan":{
+       "display":"Lycan",
+       "url":"lycan"
+    },
+    "Magnus":{
+       "display":"Magnus",
+       "url":"magnataur"
+    },
+    "Marci":{
+       "display":"Marci",
+       "url":"marci"
+    },
+    "Mars":{
+       "display":"Mars",
+       "url":"mars"
+    },
+    "Medusa":{
+       "display":"Medusa",
+       "url":"medusa"
+    },
+    "Meepo":{
+       "display":"Meepo",
+       "url":"meepo"
+    },
+    "Mirana":{
+       "display":"Mirana",
+       "url":"mirana"
+    },
+    "Monkey King":{
+       "display":"Monkey King",
+       "url":"monkey_king"
+    },
+    "Morphling":{
+       "display":"Morphling",
+       "url":"morphling"
+    },
+    "Naga Siren":{
+       "display":"Naga Siren",
+       "url":"naga_siren"
+    },
+    "Natures Prophet":{
+       "display":"Natures Prophet",
+       "url":"furion"
+    },
+    "Necrophos":{
+       "display":"Necrophos",
+       "url":"necrolyte"
+    },
+    "Night Stalker":{
+       "display":"Night Stalker",
+       "url":"night_stalker"
+    },
+    "Nyx Assassin":{
+       "display":"Nyx Assassin",
+       "url":"nyx_assassin"
+    },
+    "Ogre Magi":{
+       "display":"Ogre Magi",
+       "url":"ogre_magi"
+    },
+    "Omniknight":{
+       "display":"Omniknight",
+       "url":"omniknight"
+    },
+    "Oracle":{
+       "display":"Oracle",
+       "url":"oracle"
+    },
+    "Outworld Destroyer":{
+       "display":"Outworld Destroyer",
+       "url":"outworld_destroyer"
+    },
+    "Pangolier":{
+       "display":"Pangolier",
+       "url":"pangolier"
+    },
+    "Phantom Assassin":{
+       "display":"Phantom Assassin",
+       "url":"phantom_assassin"
+    },
+    "Phantom Lancer":{
+       "display":"Phantom Lancer",
+       "url":"phantom_lancer"
+    },
+    "Phoenix":{
+       "display":"Phoenix",
+       "url":"phoenix"
+    },
+    "Puck":{
+       "display":"Puck",
+       "url":"puck"
+    },
+    "Pudge":{
+       "display":"Pudge",
+       "url":"pudge"
+    },
+    "Pugna":{
+       "display":"Pugna",
+       "url":"pugna"
+    },
+    "Queen of Pain":{
+       "display":"Queen of Pain",
+       "url":"queenofpain"
+    },
+    "Razor":{
+       "display":"Razor",
+       "url":"razor"
+    },
+    "Riki":{
+       "display":"Riki",
+       "url":"riki"
+    },
+    "Rubick":{
+       "display":"Rubick",
+       "url":"rubick"
+    },
+    "Sand King":{
+       "display":"Sand King",
+       "url":"sand_king"
+    },
+    "Shadow Demon":{
+       "display":"Shadow Demon",
+       "url":"shadow_demon"
+    },
+    "Shadow Fiend":{
+       "display":"Shadow Fiend",
+       "url":"nevermore"
+    },
+    "Shadow Shaman":{
+       "display":"Shadow Shaman",
+       "url":"shadow_shaman"
+    },
+    "Silencer":{
+       "display":"Silencer",
+       "url":"silencer"
+    },
+    "Skywrath Mage":{
+       "display":"Skywrath Mage",
+       "url":"skywrath_mage"
+    },
+    "Slardar":{
+       "display":"Slardar",
+       "url":"slardar"
+    },
+    "Slark":{
+       "display":"Slark",
+       "url":"slark"
+    },
+    "Snapfire":{
+       "display":"Snapfire",
+       "url":"snapfire"
+    },
+    "Sniper":{
+       "display":"Sniper",
+       "url":"sniper"
+    },
+    "Spectre":{
+       "display":"Spectre",
+       "url":"spectre"
+    },
+    "Spirit Breaker":{
+       "display":"Spirit Breaker",
+       "url":"spirit_breaker"
+    },
+    "Storm Spirit":{
+       "display":"Storm Spirit",
+       "url":"storm_spirit"
+    },
+    "Sven":{
+       "display":"Sven",
+       "url":"sven"
+    },
+    "Techies":{
+       "display":"Techies",
+       "url":"techies"
+    },
+    "Templar Assassin":{
+       "display":"Templar Assassin",
+       "url":"templar_assassin"
+    },
+    "Terrorblade":{
+       "display":"Terrorblade",
+       "url":"terrorblade"
+    },
+    "Tidehunter":{
+       "display":"Tidehunter",
+       "url":"tidehunter"
+    },
+    "Timbersaw":{
+       "display":"Timbersaw",
+       "url":"shredder"
+    },
+    "Tinker":{
+       "display":"Tinker",
+       "url":"tinker"
+    },
+    "Tiny":{
+       "display":"Tiny",
+       "url":"tiny"
+    },
+    "Treant Protector":{
+       "display":"Treant Protector",
+       "url":"treant"
+    },
+    "Troll Warlord":{
+       "display":"Troll Warlord",
+       "url":"troll_warlord"
+    },
+    "Tusk":{
+       "display":"Tusk",
+       "url":"tusk"
+    },
+    "Underlord":{
+       "display":"Underlord",
+       "url":"abyssal_underlord"
+    },
+    "Undying":{
+       "display":"Undying",
+       "url":"undying"
+    },
+    "Ursa":{
+       "display":"Ursa",
+       "url":"ursa"
+    },
+    "Vengeful Spirit":{
+       "display":"Vengeful Spirit",
+       "url":"vengefulspirit"
+    },
+    "Venomancer":{
+       "display":"Venomancer",
+       "url":"venomancer"
+    },
+    "Viper":{
+       "display":"Viper",
+       "url":"viper"
+    },
+    "Visage":{
+       "display":"Visage",
+       "url":"visage"
+    },
+    "Void Spirit":{
+       "display":"Void Spirit",
+       "url":"void_spirit"
+    },
+    "Warlock":{
+       "display":"Warlock",
+       "url":"warlock"
+    },
+    "Weaver":{
+       "display":"Weaver",
+       "url":"weaver"
+    },
+    "Windranger":{
+       "display":"Windranger",
+       "url":"windranger"
+    },
+    "Winter Wyvern":{
+       "display":"Winter Wyvern",
+       "url":"winter_wyvern"
+    },
+    "Witch Doctor":{
+       "display":"Witch Doctor",
+       "url":"witch_doctor"
+    },
+    "Wraith King":{
+       "display":"Wraith King",
+       "url":"skeleton_king"
+    },
+    "Zeus":{
+       "display":"Zeus",
+       "url":"zuus"
+    }
+ }
