@@ -1,0 +1,314 @@
+{
+    "Orb of Corrosion": {
+        "display": "Orb of Corrosion",
+        "price": "925"
+    },
+    "Falcon Blade": {
+        "display": "Falcon Blade",
+        "price": "1125"
+    },
+    "Mask of Madness": {
+        "display": "Mask of Madness",
+        "price": "1175"
+    },
+    "Hand of Midas": {
+        "display": "Hand of Midas",
+        "price": "2200"
+    },
+    "Helm of the Dominator": {
+        "display": "Helm of the Dominator",
+        "price": "2400"
+    },
+    "Helm of the Overlord": {
+        "display": "Helm of the Overlord",
+        "price": "6325"
+    },
+    "Urn of Shadows": {
+        "display": "Urn of Shadows",
+        "price": "840"
+    },
+    "Medallion of Courage": {
+        "display": "Medallion of Courage",
+        "price": "1025"
+    },
+    "Drum of Endurance": {
+        "display": "Drum of Endurance",
+        "price": "1700"
+    },
+    "Mekansm": {
+        "display": "Mekansm",
+        "price": "1875"
+    },
+    "Holy Locket": {
+        "display": "Holy Locket",
+        "price": "2400"
+    },
+    "Vladmirs Offering": {
+        "display": "Vladmirs Offering",
+        "price": "2600"
+    },
+    "Spirit Vessel": {
+        "display": "Spirit Vessel",
+        "price": "2840"
+    },
+    "Pipe of Insight": {
+        "display": "Pipe of Insight",
+        "price": "3475"
+    },
+    "Guardian Greaves": {
+        "display": "Guardian Greaves",
+        "price": "5100"
+    },
+    "Veil of Discord": {
+        "display": "Veil of Discord",
+        "price": "1525"
+    },
+    "Glimmer Cape": {
+        "display": "Glimmer Cape",
+        "price": "1950"
+    },
+    "Force Staff": {
+        "display": "Force Staff",
+        "price": "2200"
+    },
+    "Aether Lens": {
+        "display": "Aether Lens",
+        "price": "2275"
+    },
+    "Witch Blade": {
+        "display": "Witch Blade",
+        "price": "2600"
+    },
+    "Solar Crest": {
+        "display": "Solar Crest",
+        "price": "2625"
+    },
+    "Dagon": {
+        "display": "Dagon",
+        "price": "7700"
+    },
+    "Euls Scepter of Divinity": {
+        "display": "Euls Scepter of Divinity",
+        "price": "2725"
+    },
+    "Rod of Atos": {
+        "display": "Rod of Atos",
+        "price": "2750"
+    },
+    "Orchid Malevolence": {
+        "display": "Orchid Malevolence",
+        "price": "3475"
+    },
+    "Aghanims Scepter": {
+        "display": "Aghanims Scepter",
+        "price": "4200"
+    },
+    "Refresher Orb": {
+        "display": "Refresher Orb",
+        "price": "5000"
+    },
+    "Octarine Core": {
+        "display": "Octarine Core",
+        "price": "5275"
+    },
+    "Scythe of Vyse": {
+        "display": "Scythe of Vyse",
+        "price": "5675"
+    },
+    "Aghanims Blessing": {
+        "display": "Aghanims Blessing",
+        "price": "5800"
+    },
+    "Gleipnir": {
+        "display": "Gleipnir",
+        "price": "6150"
+    },
+    "Wind Waker": {
+        "display": "Wind Waker",
+        "price": "6825"
+    },
+    "Hood of Defiance": {
+        "display": "Hood of Defiance",
+        "price": "1500"
+    },
+    "Vanguard": {
+        "display": "Vanguard",
+        "price": "1825"
+    },
+    "Blade Mail": {
+        "display": "Blade Mail",
+        "price": "2125"
+    },
+    "Aeon Disk": {
+        "display": "Aeon Disk",
+        "price": "3000"
+    },
+    "Eternal Shroud": {
+        "display": "Eternal Shroud",
+        "price": "3300"
+    },
+    "Crimson Guard": {
+        "display": "Crimson Guard",
+        "price": "3575"
+    },
+    "Lotus Orb": {
+        "display": "Lotus Orb",
+        "price": "3850"
+    },
+    "Black King Bar": {
+        "display": "Black King Bar",
+        "price": "4050"
+    },
+    "Hurricane Pike": {
+        "display": "Hurricane Pike",
+        "price": "4450"
+    },
+    "Linkens Sphere": {
+        "display": "Linkens Sphere",
+        "price": "4600"
+    },
+    "Manta Style": {
+        "display": "Manta Style",
+        "price": "4600"
+    },
+    "Shivas Guard": {
+        "display": "Shivas Guard",
+        "price": "4850"
+    },
+    "Heart of Tarrasque": {
+        "display": "Heart of Tarrasque",
+        "price": "5000"
+    },
+    "Assault Cuirass": {
+        "display": "Assault Cuirass",
+        "price": "5125"
+    },
+    "Bloodstone": {
+        "display": "Bloodstone",
+        "price": "5750"
+    },
+    "Crystalys": {
+        "display": "Crystalys",
+        "price": "1950"
+    },
+    "Meteor Hammer": {
+        "display": "Meteor Hammer",
+        "price": "2350"
+    },
+    "Armlet of Mordiggian": {
+        "display": "Armlet of Mordiggian",
+        "price": "2500"
+    },
+    "Skull Basher": {
+        "display": "Skull Basher",
+        "price": "2875"
+    },
+    "Shadow Blade": {
+        "display": "Shadow Blade",
+        "price": "3000"
+    },
+    "Desolator": {
+        "display": "Desolator",
+        "price": "3500"
+    },
+    "Battle Fury": {
+        "display": "Battle Fury",
+        "price": "4130"
+    },
+    "Ethereal Blade": {
+        "display": "Ethereal Blade",
+        "price": "4300"
+    },
+    "Nullifier": {
+        "display": "Nullifier",
+        "price": "4725"
+    },
+    "Butterfly": {
+        "display": "Butterfly",
+        "price": "4975"
+    },
+    "Monkey King Bar": {
+        "display": "Monkey King Bar",
+        "price": "4975"
+    },
+    "Radiance": {
+        "display": "Radiance",
+        "price": "5100"
+    },
+    "Daedalus": {
+        "display": "Daedalus",
+        "price": "5150"
+    },
+    "Divine Rapier": {
+        "display": "Divine Rapier",
+        "price": "5950"
+    },
+    "Bloodthorn": {
+        "display": "Bloodthorn",
+        "price": "6275"
+    },
+    "Abyssal Blade": {
+        "display": "Abyssal Blade",
+        "price": "6325"
+    },
+    "Dragon Lance": {
+        "display": "Dragon Lance",
+        "price": "1900"
+    },
+    "Mage Slayer": {
+        "display": "Mage Slayer",
+        "price": "2400"
+    },
+    "Echo Sabre": {
+        "display": "Echo Sabre",
+        "price": "2500"
+    },
+    "Maelstrom": {
+        "display": "Maelstrom",
+        "price": "2700"
+    },
+    "Diffusal Blade": {
+        "display": "Diffusal Blade",
+        "price": "3150"
+    },
+    "Heavens Halberd": {
+        "display": "Heavens Halberd",
+        "price": "3550"
+    },
+    "Kaya and Sange": {
+        "display": "Kaya and Sange",
+        "price": "4100"
+    },
+    "Sange and Yasha": {
+        "display": "Sange and Yasha",
+        "price": "4100"
+    },
+    "Yasha and Kaya": {
+        "display": "Yasha and Kaya",
+        "price": "4100"
+    },
+    "Satanic": {
+        "display": "Satanic",
+        "price": "5050"
+    },
+    "Eye of Skadi": {
+        "display": "Eye of Skadi",
+        "price": "5300"
+    },
+    "Mjollnir": {
+        "display": "Mjollnir",
+        "price": "5600"
+    },
+    "Arcane Blink": {
+        "display": "Arcane Blink",
+        "price": "6800"
+    },
+    "Overwhelming Blink": {
+        "display": "Overwhelming Blink",
+        "price": "6800"
+    },
+    "Swift Blink": {
+        "display": "Swift Blink",
+        "price": "6800"
+    }
+}

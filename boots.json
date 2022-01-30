@@ -1,0 +1,23 @@
+{
+    "Boots of Travel": {
+        "display": "Boots of Travel",
+        "price": "2500"
+    },
+    "Power Treads": {
+        "display": "Power Treads",
+        "price": "1400"
+    },
+    "Phase Boots": {
+        "display": "Phase Boots",
+        "price": "1500"
+    },
+    "Arcane Boots": {
+        "display": "Arcane Boots",
+        "price": "1300"
+    },
+    "Tranquil Boots": {
+        "display": "Tranquil Boots",
+        "price": "925"
+    }
+}
+    
