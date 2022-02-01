@@ -1,23 +1,28 @@
 {
     "Boots of Travel": {
         "display": "Boots of Travel",
-        "price": "2500"
+        "price": "2500",
+        "picUrl": "boots-of-travel.png"
     },
     "Power Treads": {
         "display": "Power Treads",
-        "price": "1400"
+        "price": "1400",
+        "picUrl": "power-treads.png"
     },
     "Phase Boots": {
         "display": "Phase Boots",
-        "price": "1500"
+        "price": "1500",
+        "picUrl": "phase-boots.png"
     },
     "Arcane Boots": {
         "display": "Arcane Boots",
-        "price": "1300"
+        "price": "1300",
+        "picUrl": "arcane-boots.png"
     },
     "Tranquil Boots": {
         "display": "Tranquil Boots",
-        "price": "925"
+        "price": "925",
+        "picUrl": "tranquil-boots.png"
     }
 }
     

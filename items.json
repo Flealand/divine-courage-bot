@@ -1,314 +1,392 @@
 {
     "Orb of Corrosion": {
         "display": "Orb of Corrosion",
-        "price": "925"
+        "price": "925",
+        "picUrl": "orb-of-corrosion.png"
     },
     "Falcon Blade": {
         "display": "Falcon Blade",
-        "price": "1125"
+        "price": "1125",
+        "picUrl": "falcon-blade.png"
     },
     "Mask of Madness": {
         "display": "Mask of Madness",
-        "price": "1175"
+        "price": "1175",
+        "picUrl": "mask-of-madness.png"
     },
     "Hand of Midas": {
         "display": "Hand of Midas",
-        "price": "2200"
+        "price": "2200",
+        "picUrl": "hand-of-midas.png"
     },
     "Helm of the Dominator": {
         "display": "Helm of the Dominator",
-        "price": "2400"
+        "price": "2400",
+        "picUrl": "helm-of-the-dominator.png"
     },
     "Helm of the Overlord": {
         "display": "Helm of the Overlord",
-        "price": "6325"
+        "price": "6325",
+        "picUrl": "helm-of-the-overlord.png"
     },
     "Urn of Shadows": {
         "display": "Urn of Shadows",
-        "price": "840"
+        "price": "840",
+        "picUrl": "urn-of-shadows.png"
     },
     "Medallion of Courage": {
         "display": "Medallion of Courage",
-        "price": "1025"
+        "price": "1025",
+        "picUrl": "medallion-of-courage.png"
     },
     "Drum of Endurance": {
         "display": "Drum of Endurance",
-        "price": "1700"
+        "price": "1700",
+        "picUrl": "drum-of-endurance.png"
     },
     "Mekansm": {
         "display": "Mekansm",
-        "price": "1875"
+        "price": "1875",
+        "picUrl": "Mekansm.png"
     },
     "Holy Locket": {
         "display": "Holy Locket",
-        "price": "2400"
+        "price": "2400",
+        "picUrl": "Holy-Locket.png"
     },
     "Vladmirs Offering": {
         "display": "Vladmirs Offering",
-        "price": "2600"
+        "price": "2600",
+        "picUrl": "Vladmirs-Offering.png"
     },
     "Spirit Vessel": {
         "display": "Spirit Vessel",
-        "price": "2840"
+        "price": "2840",
+        "picUrl": "Spirit-Vessel.png"
     },
     "Pipe of Insight": {
         "display": "Pipe of Insight",
-        "price": "3475"
+        "price": "3475",
+        "picUrl": "Pipe-of-Insight.png"
     },
     "Guardian Greaves": {
         "display": "Guardian Greaves",
-        "price": "5100"
+        "price": "5100",
+        "picUrl": "Guardian-Greaves.png"
     },
     "Veil of Discord": {
         "display": "Veil of Discord",
-        "price": "1525"
+        "price": "1525",
+        "picUrl": "orb-of-corrosion.png"
     },
     "Glimmer Cape": {
         "display": "Glimmer Cape",
-        "price": "1950"
+        "price": "1950",
+        "picUrl": "Veil-of-Discord.png"
     },
     "Force Staff": {
         "display": "Force Staff",
-        "price": "2200"
+        "price": "2200",
+        "picUrl": "Force-Staff.png"
     },
     "Aether Lens": {
         "display": "Aether Lens",
-        "price": "2275"
+        "price": "2275",
+        "picUrl": "Aether-Lens.png"
     },
     "Witch Blade": {
         "display": "Witch Blade",
-        "price": "2600"
+        "price": "2600",
+        "picUrl": "Witch-Blade.png"
     },
     "Solar Crest": {
         "display": "Solar Crest",
-        "price": "2625"
+        "price": "2625",
+        "picUrl": "Solar-Crest.png"
     },
     "Dagon": {
         "display": "Dagon",
-        "price": "7700"
+        "price": "7700",
+        "picUrl": "dagon.png"
     },
     "Euls Scepter of Divinity": {
         "display": "Euls Scepter of Divinity",
-        "price": "2725"
+        "price": "2725",
+        "picUrl": "Euls-Scepter-of-Divinity.png"
     },
     "Rod of Atos": {
         "display": "Rod of Atos",
-        "price": "2750"
+        "price": "2750",
+        "picUrl": "Rod-of-Atos.png"
     },
     "Orchid Malevolence": {
         "display": "Orchid Malevolence",
-        "price": "3475"
+        "price": "3475",
+        "picUrl": "Orchid-Malevolence.png"
     },
     "Aghanims Scepter": {
         "display": "Aghanims Scepter",
-        "price": "4200"
+        "price": "4200",
+        "picUrl": "Aghanims-Scepter.png"
     },
     "Refresher Orb": {
         "display": "Refresher Orb",
-        "price": "5000"
+        "price": "5000",
+        "picUrl": "refresher-orb.png"
     },
     "Octarine Core": {
         "display": "Octarine Core",
-        "price": "5275"
+        "price": "5275",
+        "picUrl": "Octarine-Core.png"
     },
     "Scythe of Vyse": {
         "display": "Scythe of Vyse",
-        "price": "5675"
+        "price": "5675",
+        "picUrl": "Scythe-of-Vyse.png"
     },
     "Aghanims Blessing": {
         "display": "Aghanims Blessing",
-        "price": "5800"
+        "price": "5800",
+        "picUrl": "Aghanims-scepter.png"
     },
     "Gleipnir": {
         "display": "Gleipnir",
-        "price": "6150"
+        "price": "6150",
+        "picUrl": "Gleipnir.png"
     },
     "Wind Waker": {
         "display": "Wind Waker",
-        "price": "6825"
+        "price": "6825",
+        "picUrl": "Wind-Waker.png"
     },
     "Hood of Defiance": {
         "display": "Hood of Defiance",
-        "price": "1500"
+        "price": "1500",
+        "picUrl": "hood-of-defiance.png"
     },
     "Vanguard": {
         "display": "Vanguard",
-        "price": "1825"
+        "price": "1825",
+        "picUrl": "vanguard.png"
     },
     "Blade Mail": {
         "display": "Blade Mail",
-        "price": "2125"
+        "price": "2125",
+        "picUrl": "blade-mail.png"
     },
     "Aeon Disk": {
         "display": "Aeon Disk",
-        "price": "3000"
+        "price": "3000",
+        "picUrl": "aeon-disk.png"
     },
     "Eternal Shroud": {
         "display": "Eternal Shroud",
-        "price": "3300"
+        "price": "3300",
+        "picUrl": "Eternal-Shroud.png"
     },
     "Crimson Guard": {
         "display": "Crimson Guard",
-        "price": "3575"
+        "price": "3575",
+        "picUrl": "crimson-guard.png"
     },
     "Lotus Orb": {
         "display": "Lotus Orb",
-        "price": "3850"
+        "price": "3850",
+        "picUrl": "lotus-orb.png"
     },
     "Black King Bar": {
         "display": "Black King Bar",
-        "price": "4050"
+        "price": "4050",
+        "picUrl": "black-king-bar.png"
     },
     "Hurricane Pike": {
         "display": "Hurricane Pike",
-        "price": "4450"
+        "price": "4450",
+        "picUrl": "hurricane-pike.png"
     },
     "Linkens Sphere": {
         "display": "Linkens Sphere",
-        "price": "4600"
+        "price": "4600",
+        "picUrl": "Linken-Sphere.png"
     },
     "Manta Style": {
         "display": "Manta Style",
-        "price": "4600"
+        "price": "4600",
+        "picUrl": "Manta-Style.png"
     },
     "Shivas Guard": {
         "display": "Shivas Guard",
-        "price": "4850"
+        "price": "4850",
+        "picUrl": "Shivas-Guard.png"
     },
     "Heart of Tarrasque": {
         "display": "Heart of Tarrasque",
-        "price": "5000"
+        "price": "5000",
+        "picUrl": "Heart-of-Tarrasque.png"
     },
     "Assault Cuirass": {
         "display": "Assault Cuirass",
-        "price": "5125"
+        "price": "5125",
+        "picUrl": "Assault-Cuirass.png"
     },
     "Bloodstone": {
         "display": "Bloodstone",
-        "price": "5750"
+        "price": "5750",
+        "picUrl": "Bloodstone.png"
     },
     "Crystalys": {
         "display": "Crystalys",
-        "price": "1950"
+        "price": "1950",
+        "picUrl": "Crystalys.png"
     },
     "Meteor Hammer": {
         "display": "Meteor Hammer",
-        "price": "2350"
+        "price": "2350",
+        "picUrl": "Meteor-Hammer.png"
     },
     "Armlet of Mordiggian": {
         "display": "Armlet of Mordiggian",
-        "price": "2500"
+        "price": "2500",
+        "picUrl": "Armlet-of-Mordiggian.png"
     },
     "Skull Basher": {
         "display": "Skull Basher",
-        "price": "2875"
+        "price": "2875",
+        "picUrl": "skull-basher.png"
     },
     "Shadow Blade": {
         "display": "Shadow Blade",
-        "price": "3000"
+        "price": "3000",
+        "picUrl": "shadow-blade.png"
     },
     "Desolator": {
         "display": "Desolator",
-        "price": "3500"
+        "price": "3500",
+        "picUrl": "Desolator.png"
     },
     "Battle Fury": {
         "display": "Battle Fury",
-        "price": "4130"
+        "price": "4130",
+        "picUrl": "Battle Fury.png"
     },
     "Ethereal Blade": {
         "display": "Ethereal Blade",
-        "price": "4300"
+        "price": "4300",
+        "picUrl": "Ethereal-Blade.png"
     },
     "Nullifier": {
         "display": "Nullifier",
-        "price": "4725"
+        "price": "4725",
+        "picUrl": "Nullifier.png"
     },
     "Butterfly": {
         "display": "Butterfly",
-        "price": "4975"
+        "price": "4975",
+        "picUrl": "Butterfly.png"
     },
     "Monkey King Bar": {
         "display": "Monkey King Bar",
-        "price": "4975"
+        "price": "4975",
+        "picUrl": "Monkey-King-Bar.png"
     },
     "Radiance": {
         "display": "Radiance",
-        "price": "5100"
+        "price": "5100",
+        "picUrl": "Radiance.png"
     },
     "Daedalus": {
         "display": "Daedalus",
-        "price": "5150"
+        "price": "5150",
+        "picUrl": "Daedalus.png"
     },
     "Divine Rapier": {
         "display": "Divine Rapier",
-        "price": "5950"
+        "price": "5950",
+        "picUrl": "Divine-Rapier.png"
     },
     "Bloodthorn": {
         "display": "Bloodthorn",
-        "price": "6275"
+        "price": "6275",
+        "picUrl": "Bloodthorn.png"
     },
     "Abyssal Blade": {
         "display": "Abyssal Blade",
-        "price": "6325"
+        "price": "6325",
+        "picUrl": "Abyssal-Blade.png"
     },
     "Dragon Lance": {
         "display": "Dragon Lance",
-        "price": "1900"
+        "price": "1900",
+        "picUrl": "Dragon-Lance.png"
     },
     "Mage Slayer": {
         "display": "Mage Slayer",
-        "price": "2400"
+        "price": "2400",
+        "picUrl": "Mage-Slayer.png"
     },
     "Echo Sabre": {
         "display": "Echo Sabre",
-        "price": "2500"
+        "price": "2500",
+        "picUrl": "echo-sabre.png"
     },
     "Maelstrom": {
         "display": "Maelstrom",
-        "price": "2700"
+        "price": "2700",
+        "picUrl": "Maelstrom.png"
     },
     "Diffusal Blade": {
         "display": "Diffusal Blade",
-        "price": "3150"
+        "price": "3150",
+        "picUrl": "Diffusal-Blade.png"
     },
     "Heavens Halberd": {
         "display": "Heavens Halberd",
-        "price": "3550"
+        "price": "3550",
+        "picUrl": "Heavens-Halberd.png"
     },
     "Kaya and Sange": {
         "display": "Kaya and Sange",
-        "price": "4100"
+        "price": "4100",
+        "picUrl": "Kaya-and-Sange.png"
     },
     "Sange and Yasha": {
         "display": "Sange and Yasha",
-        "price": "4100"
+        "price": "4100",
+        "picUrl": "Sange-and-Yasha.png"
     },
     "Yasha and Kaya": {
         "display": "Yasha and Kaya",
-        "price": "4100"
+        "price": "4100",
+        "picUrl": "Yasha-and-Kaya.png"
     },
     "Satanic": {
         "display": "Satanic",
-        "price": "5050"
+        "price": "5050",
+        "picUrl": "Satanic.png"
     },
     "Eye of Skadi": {
         "display": "Eye of Skadi",
-        "price": "5300"
+        "price": "5300",
+        "picUrl": "eye-of-skadi.png"
     },
     "Mjollnir": {
         "display": "Mjollnir",
-        "price": "5600"
+        "price": "5600",
+        "picUrl": "Mjollnir.png"
     },
     "Arcane Blink": {
         "display": "Arcane Blink",
-        "price": "6800"
+        "price": "6800",
+        "picUrl": "Arcane-Blink.png"
     },
     "Overwhelming Blink": {
         "display": "Overwhelming Blink",
-        "price": "6800"
+        "price": "6800",
+        "picUrl": "Overwhelming-Blink.png"
     },
     "Swift Blink": {
         "display": "Swift Blink",
-        "price": "6800"
+        "price": "6800",
+        "picUrl": "Swift-Blink.png"
     }
 }
