@@ -4,11 +4,14 @@ const { Routes } = require('discord-api-types/v9');
 const { clientId, guildId, token } = require('./config.json');
 
 const commands = [
-	new SlashCommandBuilder().setName('ping').setDescription('Replies with pong!'),
-	new SlashCommandBuilder().setName('server').setDescription('Replies with server info!'),
-	new SlashCommandBuilder().setName('user').setDescription('Replies with user info!'),
-    new SlashCommandBuilder().setName('dc').setDescription('Gives you divine courage CYKA!'),
-    new SlashCommandBuilder().setName('thomas').setDescription('Gibt dir Brüstespaß'),
+
+	new SlashCommandBuilder()
+	.setName('dc')
+	.setDescription('Gives you divine courage CYKA!')
+	.addIntegerOption(option =>
+		option.setName('count')
+			.setDescription('Optionally enter the number of items you want to role (0-10)')
+			.setRequired(false))
 ]
 	.map(command => command.toJSON());
 

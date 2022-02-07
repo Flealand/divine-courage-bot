@@ -12,6 +12,8 @@ const download = require('image-downloader');
 const join = require('join-images');
 const fs = require('fs');
 
+const MIN_ITEMS = 0;
+const MAX_ITEMS = 10;
 
 
 const lanes = [
@@ -29,24 +31,33 @@ client.on("interactionCreate", async interaction => {
     if (!interaction.isCommand()) return;
     const { commandName } = interaction;
     if (commandName === "dc") {
+        let itemCount = 4;
+        const itemsCountArgument =  interaction.options.getInteger('count');
+        if (itemsCountArgument >= MIN_ITEMS || itemsCountArgument <= MAX_ITEMS) {
+            itemCount = itemsCountArgument;
+        }
+
 
         const hero = getRandomFromJson(heroes);
         const boot = getRandomFromJson(boots);
+        const lane = lanes[Math.floor(Math.random() * lanes.length)];
 
         const itemArr = [];
+        let totalBuildPrice = +boot.price;
+        const imageUrls = [];
+        imageUrls.push('./pics/items/' + boot.picUrl);
 
-        const item1 = getRandomFromJson(items);
-        itemArr.push(item1);
-        const item2 = getRandomFromJson(items);
-        itemArr.push(item2);
-        const item3 = getRandomFromJson(items);
-        itemArr.push(item3);
-        const item4 = getRandomFromJson(items);
-        itemArr.push(item4);
-        const lane = lanes[Math.floor(Math.random() * lanes.length)];
-        const totalBuildPrice = +item1.price + +item2.price + +item3.price + +item4.price + +boot.price;
+        let logString = interaction.user.tag + ": Hero pic url: " + hero.url;
+        for (let i = 0; i < itemCount; i++ ) {
+            const item = getRandomFromJson(items);
+            itemArr.push(item);
+            totalBuildPrice += +item.price;
+            imageUrls.push('./pics/items/' + item.picUrl);
+            logString += ' ' + item.display + " | " ;
+        }
+        
+        console.log(logString);
 
-        console.log(interaction.user.tag + ": Hero pic url: " + hero.url + " Items", item1.display + " | " + item2.display + " | " + item3.display + " | " + item4.display);
         for (item of itemArr) {
 
             try {
@@ -67,18 +78,13 @@ client.on("interactionCreate", async interaction => {
         }
 
 
-        const tempImg = await join.joinImages(['./pics/items/' + boot.picUrl, './pics/items/' + item1.picUrl, './pics/items/' + item2.picUrl, './pics/items/' + item3.picUrl, './pics/items/' + item4.picUrl], { direction: 'horizontal' });
+        const tempImg = await join.joinImages(imageUrls, { direction: 'horizontal' });
         await tempImg.toFile('items.png');
-
-
-
 
         try {
             const embed = new MessageEmbed()
                 .setTitle(hero.display + " - " + lane)
                 .setImage("https://cdn.cloudflare.steamstatic.com/apps/dota2/images/dota_react/heroes/" + hero.url + ".png")
-                // .setDescription(boot.display)
-                // .addField("Items", item1.display + " | " + item2.display + " | " + item3.display + " | " + item4.display, true)
                 .setFooter({ text: 'Total build price: ' + totalBuildPrice + " gold." });
             await interaction.reply({
                 embeds: [embed], files: [{
