@@ -32,9 +32,11 @@ client.on("interactionCreate", async interaction => {
     const { commandName } = interaction;
     if (commandName === "dc") {
         let itemCount = 4;
-        const itemsCountArgument =  interaction.options.getInteger('count');
-        if (itemsCountArgument >= MIN_ITEMS || itemsCountArgument <= MAX_ITEMS) {
-            itemCount = itemsCountArgument;
+        const itemsCountArgument = interaction.options.getInteger('count');
+        if (itemsCountArgument && itemsCountArgument !== null) {
+            if (itemsCountArgument >= MIN_ITEMS || itemsCountArgument <= MAX_ITEMS) {
+                itemCount = itemsCountArgument;
+            }
         }
 
 
@@ -48,14 +50,14 @@ client.on("interactionCreate", async interaction => {
         imageUrls.push('./pics/items/' + boot.picUrl);
 
         let logString = interaction.user.tag + ": Hero pic url: " + hero.url;
-        for (let i = 0; i < itemCount; i++ ) {
+        for (let i = 0; i < itemCount; i++) {
             const item = getRandomFromJson(items);
             itemArr.push(item);
             totalBuildPrice += +item.price;
             imageUrls.push('./pics/items/' + item.picUrl);
-            logString += ' ' + item.display + " | " ;
+            logString += ' ' + item.display + " | ";
         }
-        
+
         console.log(logString);
 
         for (item of itemArr) {
@@ -98,8 +100,32 @@ client.on("interactionCreate", async interaction => {
             console.log(error);
         }
 
+    } else if (commandName === "item") {
+
+        const item = getRandomFromJson(items);
+        try {
+            if (!fs.existsSync('./pics/items' + item.picUrl)) {
+                await downloadImage('https://www.dotafire.com/images/item/' + item.picUrl, './pics/items');
+            }
+        } catch (err) {
+            console.error(err)
+        }
+
+        try {
+            const embed = new MessageEmbed()
+                .setTitle(item.display)
+                .setImage('https://www.dotafire.com/images/item/' + item.picUrl, './pics/items');
+            await interaction.reply({
+                embeds: [embed],
+            });
+
+
+        } catch (error) {
+            console.log(error);
+        }
+
     }
-    if (commandName === "ping") {
+    else if (commandName === "ping") {
         await interaction.reply("Pong!");
     } else if (commandName === "server") {
         await interaction.reply(`Server name: ${interaction.guild.name}\nTotal members: ${interaction.guild.memberCount}`);
