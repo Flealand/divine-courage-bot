@@ -15,6 +15,9 @@ const fs = require('fs');
 const MIN_ITEMS = 0;
 const MAX_ITEMS = 10;
 
+const MIN_TARGET = 7000;
+const MAX_TARGET = 20000;
+
 
 const lanes = [
     "Safe lane",
@@ -32,7 +35,8 @@ client.on("interactionCreate", async interaction => {
     const { commandName } = interaction;
     if (commandName === "dc") {
         let itemCount = 4;
-        const itemsCountArgument =  interaction.options.getInteger('count');
+        const itemsCountArgument = interaction.options.getInteger('count');
+
         if (itemsCountArgument >= MIN_ITEMS || itemsCountArgument <= MAX_ITEMS) {
             itemCount = itemsCountArgument;
         }
@@ -42,20 +46,45 @@ client.on("interactionCreate", async interaction => {
         const boot = getRandomFromJson(boots);
         const lane = lanes[Math.floor(Math.random() * lanes.length)];
 
-        const itemArr = [];
+        let itemArr = [];
         let totalBuildPrice = +boot.price;
-        const imageUrls = [];
+        let imageUrls = [];
         imageUrls.push('./pics/items/' + boot.picUrl);
 
         let logString = interaction.user.tag + ": Hero pic url: " + hero.url;
-        for (let i = 0; i < itemCount; i++ ) {
-            const item = getRandomFromJson(items);
-            itemArr.push(item);
-            totalBuildPrice += +item.price;
-            imageUrls.push('./pics/items/' + item.picUrl);
-            logString += ' ' + item.display + " | " ;
+
+        let goldTarget = interaction.options.getInteger('goldtarget');
+        if (goldTarget !== 0 && (goldTarget >= MIN_TARGET || goldTarget <= MAX_TARGET)) {
+            let itemPrice = 0;
+            let rolls = 0;
+            do {
+                itemPrice = 0;
+                itemArr = [];
+                imageUrls = [];
+
+                imageUrls.push('./pics/items/' + boot.picUrl);
+                for (let i = 0; i < itemCount; i++) {
+                    const item = getRandomFromJson(items);
+                    itemArr.push(item);
+                    itemPrice += +item.price;
+                    imageUrls.push('./pics/items/' + item.picUrl);
+                }
+                rolls++;
+
+            } while (rolls <= 1000 || (itemPrice + totalBuildPrice > goldTarget - 2000 && itemPrice + totalBuildPrice > goldTarget + 2000))
+            totalBuildPrice += itemPrice;
+
+        } else {
+            for (let i = 0; i < itemCount; i++) {
+                const item = getRandomFromJson(items);
+                itemArr.push(item);
+                totalBuildPrice += +item.price;
+                imageUrls.push('./pics/items/' + item.picUrl);
+                logString += ' ' + item.display + " | ";
+            }
         }
-        
+
+
         console.log(logString);
 
         for (item of itemArr) {
