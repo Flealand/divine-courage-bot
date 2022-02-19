@@ -388,5 +388,10 @@
         "display": "Swift Blink",
         "price": "6800",
         "picUrl": "Swift-Blink.png"
+    },
+        "Aghanims Shard": {
+        "display": "Aghanims Shard",
+        "price": "1400",
+        "picUrl": "aghanims-shard.png"
     }
 }
