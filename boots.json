@@ -4,6 +4,11 @@
         "price": "2500",
         "picUrl": "boots-of-travel.png"
     },
+    "Boots of Travel 2": {
+        "display": "Boots of Travel 2",
+        "price": "4500",
+        "picUrl": "boots-of-travel-2.png"
+    },
     "Power Treads": {
         "display": "Power Treads",
         "price": "1400",
