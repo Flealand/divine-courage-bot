@@ -69,6 +69,16 @@
         "price": "3475",
         "picUrl": "Pipe-of-Insight.png"
     },
+    "Boots of Bearing": {
+        "display": "Boots of Bearing",
+        "price": "4125",
+        "picUrl": "boots-of-bearing.png"
+    },
+    "Wraith Pact": {
+        "display": "Wraith Pact",
+        "price": "4200",
+        "picUrl": "wraith-pact.png"
+    },
     "Guardian Greaves": {
         "display": "Guardian Greaves",
         "price": "5100",
@@ -158,6 +168,10 @@
         "display": "Wind Waker",
         "price": "6825",
         "picUrl": "Wind-Waker.png"
+    "Revenants Brooch": {
+        "display": "Revenants Brooch",
+        "price": "6200",
+        "picUrl": "revenants-brooch.png"
     },
     "Hood of Defiance": {
         "display": "Hood of Defiance",
@@ -171,7 +185,7 @@
     },
     "Blade Mail": {
         "display": "Blade Mail",
-        "price": "2125",
+        "price": "2100",
         "picUrl": "blade-mail.png"
     },
     "Aeon Disk": {
@@ -231,7 +245,7 @@
     },
     "Bloodstone": {
         "display": "Bloodstone",
-        "price": "5750",
+        "price": "4600",
         "picUrl": "Bloodstone.png"
     },
     "Crystalys": {
@@ -266,12 +280,12 @@
     },
     "Battle Fury": {
         "display": "Battle Fury",
-        "price": "4130",
+        "price": "4100",
         "picUrl": "Battle Fury.png"
     },
     "Ethereal Blade": {
         "display": "Ethereal Blade",
-        "price": "4300",
+        "price": "4650",
         "picUrl": "Ethereal-Blade.png"
     },
     "Nullifier": {
@@ -291,7 +305,7 @@
     },
     "Radiance": {
         "display": "Radiance",
-        "price": "5100",
+        "price": "5050",
         "picUrl": "Radiance.png"
     },
     "Daedalus": {
@@ -306,7 +320,7 @@
     },
     "Bloodthorn": {
         "display": "Bloodthorn",
-        "price": "6275",
+        "price": "6800",
         "picUrl": "Bloodthorn.png"
     },
     "Abyssal Blade": {
@@ -336,7 +350,7 @@
     },
     "Diffusal Blade": {
         "display": "Diffusal Blade",
-        "price": "3150",
+        "price": "2500",
         "picUrl": "Diffusal-Blade.png"
     },
     "Heavens Halberd": {
