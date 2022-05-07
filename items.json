@@ -87,12 +87,12 @@
     "Veil of Discord": {
         "display": "Veil of Discord",
         "price": "1525",
-        "picUrl": "orb-of-corrosion.png"
+        "picUrl": "Veil-of-Discord.png"
     },
     "Glimmer Cape": {
         "display": "Glimmer Cape",
         "price": "1950",
-        "picUrl": "Veil-of-Discord.png"
+        "picUrl": "Glimmer-Cape.png"
     },
     "Force Staff": {
         "display": "Force Staff",
